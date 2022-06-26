@@ -20,7 +20,7 @@ public class Instanciar : MonoBehaviour
 
     void CrearProyectil()
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(prefabBala, positionTorreta.position, transform.rotation);
         }    
